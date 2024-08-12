@@ -123,3 +123,90 @@ a:focus, a:hover {
 }
 
 
+/* Nous contacter */
+
+.nous_rencontrer_radius {
+    border-radius: 0px 0px 400px 400px/ 0px 0px 50px 50px !important;
+}
+.wp-image-219 {
+    position: static;
+    margin-left: 9%;
+    margin-bottom: -8%;
+    margin-top: 3%;
+}
+
+#equipe {
+    flex-direction: column;
+}
+
+.bloc_equipe {
+    width: 50%;
+    justify-content: center;
+    position: relative;
+}
+
+.image_equipe {
+    width: 100%;
+}
+
+.wp-image-130 {
+    position: static;
+    margin-left: 70%;
+    margin-top: -10%;
+}
+
+.form_nous_contacter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+.width_label {
+    width: 383px;
+    display: block;
+    font-size: 20px;
+}
+.wpcf7 .wpcf7-form-control-wrap {
+    padding-top: 5px;
+}
+
+#wpcf7-f87-p88-o1 .wpcf7-submit {
+    background-color: #E0B9B4 ;
+    color: white ;
+    font-size: 15px ;
+    font-weight: 400 ;
+    line-height: 37px ;
+    text-align: center;
+    width: 198px ;
+    height: 55px ;
+    display: flex;
+    border-radius: 5px ;
+}
+#wpcf7-f87-p88-o1 .wpcf7-submit:hover{
+    background-color: #C02E44;
+}
+
+.image_form_contact {
+    margin-top: -8%;
+    width: 100%;
+}
+.wp-image-99 {
+    position: static;
+    margin-left: 30%;
+    margin-top: -15%;
+}
+
+.entry-content[ast-blocks-layout] > figure {
+    margin: 0;
+}
+.ast-plain-container.ast-no-sidebar #primary{
+    margin: 0;
+}
+#page .site-content {
+    flex-grow: unset;
+}
+
+.canette_bottom {
+    background-color: #ECE2DA;
+}
