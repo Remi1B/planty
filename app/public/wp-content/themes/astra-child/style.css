@@ -338,3 +338,77 @@ div.btn_centre button {
     height: 55px;
     border-radius: 5px;
 }
+
+@media (min-width : 320px) and (max-width: 768px) {
+    .h1_accueil {
+        font-size: 30px !important;
+    }
+
+    #ast-hf-mobile-menu .commander_menu {
+        font-weight: 400;
+        background-color: #dc9f96;
+    }
+    .form_nous_contacter {
+        margin-bottom: 0 !important;
+    }
+    .image_form_contact {
+        display: none !important;
+    }
+    .bloc_avis {
+        display: flex;
+        flex-direction: column;
+    }
+    #avis_perso {
+        flex-direction: column;
+        width: 100%;
+    }
+    #avis_perso figure {
+        width: 30%;
+    }
+    .text_avis {
+        text-align: center;
+    }
+    .bloc_gout {
+        display: flex !important;
+        flex-direction: column;
+    }
+    .gout_droite, .gout_gauche {
+        justify-content: center;
+    }
+    .bloc_equipe {
+        flex-direction: column;
+    }
+    .wp-image-130 {
+        display: none;
+    }
+    .form_nous_contacter p {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+    }
+    .centrer_bouton p {
+        display: block;
+        width: 100%;
+    }
+    
+    .form_bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .form_commande h2 {
+        justify-content: center;
+        text-align: center;
+    }
+    input.form_infos {
+        width: 100%;
+    }
+
+    .livraison, .vos_infos {
+        width: 100%;
+    }
+    .livraison h2{
+        margin-top: 10%;
+        min-height: 0;
+    }
+}
