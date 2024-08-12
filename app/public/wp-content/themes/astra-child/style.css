@@ -1,0 +1,125 @@
+/*
+Theme Name: Astra Child
+Theme URI: https://wpastra.com/
+Template: astra
+Author: Brainstorm Force
+Author URI: https://wpastra.com/about/?utm_source=theme_preview&utm_medium=author_link&utm_campaign=astra_theme
+Description: Astra is fast, fully customizable &amp; beautiful WordPress theme suitable for blog, personal portfolio, business website and WooCommerce storefront. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with Schema.org code integrated and is Native AMP ready so search engines will love your site. It offers special features and templates so it works perfectly with all page builders like Elementor, Beaver Builder, Visual Composer, SiteOrigin, Divi, etc. Some of the other features: # WooCommerce Ready # Responsive # RTL &amp; Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained &amp; Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and WooCommerce ready theme that you can use for building any kind of website!
+Tags: custom-menu,custom-logo,entertainment,one-column,two-columns,left-sidebar,e-commerce,right-sidebar,custom-colors,editor-style,featured-images,full-width-template,microformats,post-formats,rtl-language-support,theme-options,threaded-comments,translation-ready,blog
+Version: 4.7.3.1721722311
+Updated: 2024-07-23 08:11:51
+
+*/
+#masthead .ast-container, .site-header-focus-item + .ast-breadcrumbs-wrapper {
+    padding-right: 0;
+}
+
+.ast-plain-container, .ast-page-builder-template {
+    background-color: white;
+}
+
+a:focus, a:hover {
+    color: black;
+}
+.radius_accueil_top {
+    border-radius: 0% 0% 50% 50% / 0% 0% 7% 7%;
+}
+.commander_menu {
+    background-color: #dc9f96;
+    font-size: 16px;
+    font-weight: 700;
+    height: 80px;
+    width: 236px;
+}
+
+#menu-item-72 a {
+    color: white;
+}
+.menu-link {
+    color : black;
+    justify-content: center;
+}
+#menu-item-72 a:hover {
+    background-color: #C02E44 ;
+}
+.site-header {
+    background-color: white;
+}
+.bloc_img {
+    gap: 0;
+}
+
+.wp-image-55 {
+    position: static;
+    margin-left: 60%;
+}
+
+.wp-image-53 {
+    position: relative;
+}
+.wp-image-54 {
+    position: static;
+    margin-left: -60%;
+}
+
+.p_accueil {
+    width: 50%;
+}
+
+#gout_index {
+    border-radius: 0% 0% 50% 50% / 0% 0% 3% 3%;
+}
+
+.gout_gauche {
+    display: flex;
+    justify-content: end;
+}
+
+.gout_droite {
+    display: flex;
+    justify-content: start;
+}
+#gout_index img {
+    width: 75%;
+}
+
+#bouton_gout {
+    width: 198px;
+    height: 55px;
+}
+
+#bouton_gout a{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+#bouton_gout a:hover{
+    background-color: #C02E44 !important;
+}
+
+#avis {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+}
+
+#avis_perso {
+    width: 33%;
+}
+
+#avis_perso figure {
+    width: 50%;
+}
+
+#avis_perso img {
+    object-fit: unset;
+}
+
+.text_avis {
+    width: 100%;
+}
+
+
