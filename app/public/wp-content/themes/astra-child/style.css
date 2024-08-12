@@ -10,4 +10,329 @@ Version: 4.7.3.1721722311
 Updated: 2024-07-23 08:11:51
 
 */
+#masthead .ast-container, .site-header-focus-item + .ast-breadcrumbs-wrapper {
+    padding-right: 0;
+}
 
+.ast-plain-container, .ast-page-builder-template {
+    background-color: white;
+}
+
+a:focus, a:hover {
+    color: black;
+}
+.radius_accueil_top {
+    border-radius: 0% 0% 50% 50% / 0% 0% 7% 7%;
+}
+.commander_menu {
+    background-color: #dc9f96;
+    font-size: 16px;
+    font-weight: 700;
+    height: 80px;
+    width: 236px;
+}
+
+#menu-item-72 a {
+    color: white;
+}
+.menu-link {
+    color : black;
+    justify-content: center;
+}
+#menu-item-72 a:hover {
+    background-color: #C02E44 ;
+}
+.site-header {
+    background-color: white;
+}
+.bloc_img {
+    gap: 0;
+}
+
+.wp-image-55 {
+    position: static;
+    margin-left: 60%;
+}
+
+.wp-image-53 {
+    position: relative;
+}
+.wp-image-54 {
+    position: static;
+    margin-left: -60%;
+}
+
+.p_accueil {
+    width: 50%;
+}
+
+#gout_index {
+    border-radius: 0% 0% 50% 50% / 0% 0% 3% 3%;
+}
+
+.gout_gauche {
+    display: flex;
+    justify-content: end;
+}
+
+.gout_droite {
+    display: flex;
+    justify-content: start;
+}
+#gout_index img {
+    width: 75%;
+}
+
+#bouton_gout {
+    width: 198px;
+    height: 55px;
+}
+
+#bouton_gout a{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+#bouton_gout a:hover{
+    background-color: #C02E44 !important;
+}
+
+#avis {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+}
+
+#avis_perso {
+    width: 33%;
+}
+
+#avis_perso figure {
+    width: 50%;
+}
+
+#avis_perso img {
+    object-fit: unset;
+}
+
+.text_avis {
+    width: 100%;
+}
+
+/* Nous contacter */
+
+.nous_rencontrer_radius {
+    border-radius: 0px 0px 400px 400px/ 0px 0px 50px 50px !important;
+}
+.wp-image-219 {
+    position: static;
+    margin-left: 9%;
+    margin-bottom: -8%;
+    margin-top: 3%;
+}
+
+#equipe {
+    flex-direction: column;
+}
+
+.bloc_equipe {
+    width: 50%;
+    justify-content: center;
+    position: relative;
+}
+
+.image_equipe {
+    width: 100%;
+}
+
+.wp-image-130 {
+    position: static;
+    margin-left: 70%;
+    margin-top: -10%;
+}
+
+.form_nous_contacter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+.width_label {
+    width: 383px;
+    display: block;
+    font-size: 20px;
+}
+.wpcf7 .wpcf7-form-control-wrap {
+    padding-top: 5px;
+}
+
+#wpcf7-f87-p88-o1 .wpcf7-submit {
+    background-color: #E0B9B4 ;
+    color: white ;
+    font-size: 15px ;
+    font-weight: 400 ;
+    line-height: 37px ;
+    text-align: center;
+    width: 198px ;
+    height: 55px ;
+    display: flex;
+    border-radius: 5px ;
+}
+#wpcf7-f87-p88-o1 .wpcf7-submit:hover{
+    background-color: #C02E44;
+}
+
+.image_form_contact {
+    margin-top: -8%;
+    width: 100%;
+}
+.wp-image-99 {
+    position: static;
+    margin-left: 30%;
+    margin-top: -15%;
+}
+
+.entry-content[ast-blocks-layout] > figure {
+    margin: 0;
+}
+.ast-plain-container.ast-no-sidebar #primary{
+    margin: 0;
+}
+#page .site-content {
+    flex-grow: unset;
+}
+
+.canette_bottom {
+    background-color: #ECE2DA;
+}
+
+/* Commande */
+.page-id-116 {
+    background-color: #3B8E46 ;
+}
+
+.page-id-116 h1 {
+    padding-top: 50px;
+}
+
+.ligne_separation {
+    background-color: white;
+    border: 0;
+    height: 1px;
+    margin-bottom: 1.5em;
+}
+.form_commande h2 {
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+}
+
+.form_commande p {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+}
+
+#wpcf7-f115-p116-o1 .spinbox {
+    width: 39px ;
+    height: 56px ;
+    padding: 0;
+    text-align: center;
+}
+
+.form_commande {
+    width: 70%;
+  margin: auto;
+}
+
+.parfum_commande {
+    display: flex;
+    gap: 20px;
+}
+
+#wpcf7-f115-p116-o1 .form_infos {
+    border-radius: 7px;
+}
+
+.form_bottom {
+    column-gap: 50px;
+    column-rule: 1px solid white;
+    column-count: 2;
+}
+
+.form_bottom p {
+    margin: 0;
+}
+
+#wpcf7-f115-p116-o1 .wpcf7-form-control-wrap {
+    display: flex;
+    justify-content: center;
+    padding: 5px 0;
+}
+
+#wpcf7-f115-p116-o1 .wpcf7-submit {
+    background-color: #E0B9B4 ;
+    font-size: 15px ;
+    font-weight: 400 ;
+    margin-top: 20px;
+}
+#wpcf7-f115-p116-o1 .wpcf7-submit:hover {
+    background-color: #C02E44 ;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    background: none;
+    width: 0;
+    border: none;
+}
+
+input[type="number"] {
+-moz-appearance: textfield;
+}
+
+
+
+@media (min-width : 320px) and (max-width: 768px) {
+    .h1_accueil {
+        font-size: 30px !important;
+    }
+
+    #ast-hf-mobile-menu .commander_menu {
+        font-weight: 400;
+        background-color: #dc9f96;
+    }
+    .image_form_contact {
+        display: none !important;
+    }
+    .bloc_avis {
+        display: flex;
+        flex-direction: column;
+    }
+    #avis_perso {
+        flex-direction: column;
+        width: 100%;
+    }
+    #avis_perso figure {
+        width: 30%;
+    }
+    .text_avis {
+        text-align: center;
+    }
+    .bloc_gout {
+        display: flex !important;
+        flex-direction: column;
+    }
+    .gout_droite, .gout_gauche {
+        justify-content: center;
+    }
+    .wp-image-130 {
+        display: none;
+    }
+}

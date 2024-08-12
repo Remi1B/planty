@@ -23,7 +23,27 @@ add_action( 'wp_enqueue_scripts', 'child_theme_configurator_css', 10 );
 
 // END ENQUEUE PARENT ACTION
 
-function ajouter_bouton_header() {
-    echo '<button id="mon-bouton" style="position: absolute; top: 10px; right: 10px;">Cliquez-moi</button>';
+add_filter( 'wp_nav_menu_items', 'add_extra_item_to_nav_menu', 10, 2 );
+function add_extra_item_to_nav_menu( $items, $args ) {
+    // Vérifier si l'utilisateur est connecté et si l'emplacement du menu est 'primary'
+    if (is_user_logged_in() && ($args->theme_location === 'primary' || $args->theme_location === 'mobile_menu')) {
+        // Définir l'élément "Admin"
+        $admin_item = '<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home"><a class="menu-link" href="' . admin_url() . '">Admin</a></li>';
+        // Séparer les éléments de menu en un tableau
+        $items_array = explode('</li>', $items);
+        // Enlever les éléments vides du tableau
+        $items_array = array_filter($items_array, function($value) {
+            $value = trim($value); // Enlever les espaces blancs
+            return !empty($value); // Vérifier que l'élément n'est pas vide
+        });
+        // Ajouter l'élément "Admin" à l'avant-dernière position
+        if (count($items_array) > 0) {
+            array_splice($items_array, count($items_array) - 1, 0, $admin_item);
+        } else {
+            $items_array[] = $admin_item;
+        }
+        // Recombiner les éléments en une seule chaîne
+        $items = implode('</li>', $items_array) . '</li>';
+    }
+    return $items;
 }
-add_action('wp_head', 'ajouter_bouton_header');
